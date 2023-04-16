@@ -1,0 +1,12 @@
+spring:
+  data:
+    elasticsearch:
+      client:
+        reactive:
+          endpoints: localhost:9700
+          useSsl: false
+          username: elastic
+          password: UPjKafsVvKNYP*IFkmPN
+          connectionTimeout: 30s
+          socketTimeout: 60s
+          maxInMemorySize: 10MB
